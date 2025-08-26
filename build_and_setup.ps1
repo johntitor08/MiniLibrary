@@ -33,6 +33,7 @@ Start-Process -FilePath $installer -ArgumentList "/VERYSILENT /NORESTART" -Wait
 
 if (Test-Path $appPath) {
     Write-Host "🎉 Kurulum tamamlandı! Uygulama başlatılıyor..." -ForegroundColor Green
+    Start-Process -FilePath $appPath
 }
 else {
     Write-Host "❌ Kurulum sonrası uygulama bulunamadı!" -ForegroundColor Red
