@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Mini Library Full Pipeline Debug",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}\\target\\release\\mini-library.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "Full Build & Setup Mini Library",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        }
+    ]
+}

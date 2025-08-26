@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Rust Programlama",
+    "author": "John Titor",
+    "category": "Programlama",
+    "read": false,
+    "favorite": true,
+    "cover_path": "covers/rust_book.png"
+  },
+  {
+    "title": "Bilim Kurgu Romanı",
+    "author": "Jane Doe",
+    "category": "Roman",
+    "read": true,
+    "favorite": false,
+    "cover_path": "covers/scifi.png"
+  },
+  {
+    "title": "Suç ve Ceza",
+    "author": "Fyodor Dostoyevski",
+    "category": "Roman",
+    "read": false,
+    "favorite": false,
+    "cover_path": "covers/suc_ve_ceza.jpg"
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "category": "Roman",
+    "read": true,
+    "favorite": true,
+    "cover_path": "covers/1984.jpg"
+  },
+  {
+    "title": "Küçük Prens",
+    "author": "Antoine de Saint-Exupéry",
+    "category": "Çocuk",
+    "read": false,
+    "favorite": true,
+    "cover_path": "covers/kucuk_prens.jpg"
+  }
+]
