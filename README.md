@@ -1,6 +1,6 @@
 # Mini Library GUI
 
-Profesyonel bir Rust GUI kütüphane yönetim sistemi.
+Rust GUI kütüphane yönetim sistemi.
 
 ## Özellikler
 
