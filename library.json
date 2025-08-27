@@ -38,5 +38,45 @@
     "read": false,
     "favorite": true,
     "cover_path": "covers/kucuk_prens.jpg"
+  },
+  {
+    "title": "Python ile Veri Bilimi",
+    "author": "Ahmet Yılmaz",
+    "category": "Programlama",
+    "read": true,
+    "favorite": false,
+    "cover_path": "covers/python_data_science.png"
+  },
+  {
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "category": "Roman",
+    "read": false,
+    "favorite": true,
+    "cover_path": "covers/dune.png"
+  },
+  {
+    "title": "Sapiens",
+    "author": "Yuval Noah Harari",
+    "category": "Tarih",
+    "read": true,
+    "favorite": true,
+    "cover_path": "covers/sapiens.jpg"
+  },
+  {
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "category": "Programlama",
+    "read": false,
+    "favorite": false,
+    "cover_path": "covers/clean_code.png"
+  },
+  {
+    "title": "Harry Potter ve Felsefe Taşı",
+    "author": "J.K. Rowling",
+    "category": "Çocuk",
+    "read": true,
+    "favorite": true,
+    "cover_path": "covers/harry_potter1.jpg"
   }
 ]
