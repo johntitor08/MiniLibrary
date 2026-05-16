@@ -1,0 +1,17 @@
+# Rust
+/target/
+Cargo.lock
+
+# Inno Setup output
+/Output/
+
+# Uygulama verisi
+library.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
