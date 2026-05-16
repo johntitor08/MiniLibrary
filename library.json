@@ -4,69 +4,89 @@
     "author": "John Titor",
     "category": "Programlama",
     "read": false,
-    "favorite": true
+    "favorite": true,
+    "rating": 5,
+    "notes": ""
   },
   {
     "title": "Bilim Kurgu Romanı",
     "author": "Jane Doe",
     "category": "Roman",
     "read": true,
-    "favorite": false
+    "favorite": false,
+    "rating": 0,
+    "notes": "saa"
   },
   {
     "title": "Suç ve Ceza",
     "author": "Fyodor Dostoyevski",
     "category": "Roman",
     "read": false,
-    "favorite": false
+    "favorite": false,
+    "rating": 0,
+    "notes": ""
   },
   {
     "title": "1984",
     "author": "George Orwell",
     "category": "Roman",
     "read": true,
-    "favorite": true
+    "favorite": true,
+    "rating": 5,
+    "notes": ""
   },
   {
     "title": "Küçük Prens",
     "author": "Antoine de Saint-Exupéry",
     "category": "Çocuk",
     "read": false,
-    "favorite": true
+    "favorite": true,
+    "rating": 2,
+    "notes": ""
   },
   {
     "title": "Python ile Veri Bilimi",
     "author": "Ahmet Yılmaz",
     "category": "Programlama",
     "read": true,
-    "favorite": false
+    "favorite": false,
+    "rating": 5,
+    "notes": ""
   },
   {
     "title": "Dune",
     "author": "Frank Herbert",
     "category": "Roman",
     "read": false,
-    "favorite": true
+    "favorite": true,
+    "rating": 0,
+    "notes": ""
   },
   {
     "title": "Sapiens",
     "author": "Yuval Noah Harari",
     "category": "Tarih",
     "read": true,
-    "favorite": true
+    "favorite": true,
+    "rating": 3,
+    "notes": ""
   },
   {
     "title": "Clean Code",
     "author": "Robert C. Martin",
     "category": "Programlama",
     "read": false,
-    "favorite": false
+    "favorite": false,
+    "rating": 5,
+    "notes": ""
   },
   {
     "title": "Harry Potter ve Felsefe Taşı",
     "author": "J.K. Rowling",
     "category": "Çocuk",
     "read": true,
-    "favorite": true
+    "favorite": true,
+    "rating": 3,
+    "notes": ""
   }
 ]
