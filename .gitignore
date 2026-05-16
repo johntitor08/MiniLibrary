@@ -1,14 +1,6 @@
-# Rust
 /target/
-Cargo.lock
-
-# Inno Setup output
 /Output/
-
-# IDE
 .vscode/
 .idea/
-
-# OS
 .DS_Store
 Thumbs.db
