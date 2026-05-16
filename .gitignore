@@ -5,9 +5,6 @@ Cargo.lock
 # Inno Setup output
 /Output/
 
-# Uygulama verisi
-library.json
-
 # IDE
 .vscode/
 .idea/
