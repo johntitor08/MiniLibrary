@@ -5,6 +5,12 @@ pub struct Library {
     pub books: Vec<Book>,
 }
 
+impl Default for Library {
+    fn default() -> Self {
+        Self::new()
+    }
+}
+
 impl Library {
     pub fn new() -> Self {
         let books: Vec<Book> = fs::read_to_string("library.json")
@@ -15,10 +21,14 @@ impl Library {
     }
 
     pub fn save(&self) {
-        let _ = fs::write(
-            "library.json",
-            serde_json::to_string_pretty(&self.books).unwrap(),
-        );
+        match serde_json::to_string_pretty(&self.books) {
+            Ok(json) => {
+                if let Err(e) = fs::write("library.json", json) {
+                    eprintln!("library.json kaydedilemedi: {e}");
+                }
+            }
+            Err(e) => eprintln!("Kitaplar serileştirilemedi: {e}"),
+        }
     }
 
     pub fn add_book(&mut self, book: Book) {

@@ -15,6 +15,10 @@ pub struct Book {
 }
 
 impl Book {
+    /// Seçilebilir kategoriler ("Tümü" filtresi hariç).
+    pub const CATEGORIES: [&'static str; 5] =
+        ["Programlama", "Roman", "Bilim", "Tarih", "Diğer"];
+
     pub fn category_color(category: &str) -> egui::Color32 {
         match category {
             "Programlama" => egui::Color32::LIGHT_BLUE,
